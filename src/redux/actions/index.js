@@ -34,7 +34,17 @@ export const onMultiplayClick = () => ({
   type: MULTIPLY,
 });
 
-//ディバイドがクリックされた時のイベント 
+//ディバイドがクリックされた時のイベント
 export const onDivideClick = () => ({
   type: DIVIDE,
+});
+
+//マルチプレイがクリックされた時のイベント
+export const onEqualClick = () => ({
+  type: EQUAL,
+});
+
+//ディバイドがクリックされた時のイベント
+export const onClearClick = () => ({
+  type: CLEAR,
 });
