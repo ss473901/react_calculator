@@ -1,0 +1,55 @@
+#root {
+  width: 200px;
+  margin: auto;
+
+  .result {
+    height: 40px;
+    background-color: black;
+
+    .resultValue {
+      text-align: end;
+      height: 100%;
+      font-size: 30px;
+      color: white;
+      padding-right: 15px;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    button {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      background-color: #555555;
+      border: none;
+      color: white;
+      font-size: 25px;
+      padding: 0;
+
+      &:hover {
+        background-color: #999999;
+      }
+    }
+
+    .operator {
+      display: flex;
+      flex-direction: column;
+
+      button {
+        background-color: orange;
+        &:hover {
+          background-color: #ffc7af;
+        }
+        &:focus {
+          background-color: white;
+          color: orange;
+        }
+      }
+    }
+  }
+}
