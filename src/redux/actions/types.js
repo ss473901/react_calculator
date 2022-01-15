@@ -12,3 +12,5 @@ export const EQUAL = "EQUAL";
 
 //『AC』がクリックされた時
 export const CLEAR = "CLEAR";
+
+
